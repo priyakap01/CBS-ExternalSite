@@ -13,11 +13,11 @@ var externalSchema = new mongoose.Schema({
     We_Are_Here : {
       as_of_date: String,
       Phases : [{
-        Phase_Name : { 
-          Stage : String,
-          Description : String,
-          Indicator : String
-        }
+        Stage : String,
+        Phase_detail : [{ 
+          Description : [String],
+          Class : String
+        }]
       }]
     },
     Key_Dates_Watch : [{
