@@ -1,0 +1,23 @@
+{
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"description": "A sample nodejs app for Bluemix",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "latest",
+		"jade": "1.1.4",
+		"body-parser": "latest",
+		"mongoose": "3.8",
+		"method-override" : "~2.1.1",
+		"multer": "~0.1.6",
+		"passport" : "latest",
+    "cookie-parser" : "latest",
+    "express-session" : "^1.10.4"
+	},
+	"engines": {
+		"node": "0.10.*"
+	},
+	"repository": {}
+}

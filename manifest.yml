@@ -1,0 +1,12 @@
+applications:
+- services:
+  - MongoLab-cf
+  - Single Sign On-yc
+  disk_quota: 1024M
+  host: cbs-externalsite
+  name: CBS-ExternalSite
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
